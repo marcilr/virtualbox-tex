@@ -11,6 +11,9 @@ abbreviations.tex
 appendix/
   Appendix
 
+examples.tex
+  Examples
+
 introduction.tex
   Introduction for virtualbox
 
