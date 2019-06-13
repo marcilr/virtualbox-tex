@@ -61,11 +61,11 @@ make.bat
 Makefile
   Standard GNU makefile to build LaTeX document.
 
-VirtualBox.pdf
-  VirtualBox documentation compiled to portable document format file.
+virtualbox.pdf
+  VirtualBox Configuration and Usage
 
-VirtualBox.tex
-  VirtualBox LaTeX documentation
+virtualbox.tex  
+  VirtualBox Configuration and Usage LaTeX document
 
 TODO
   Items for VirtualBox
