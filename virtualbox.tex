@@ -274,88 +274,13 @@ pdfkeywords={LaTeX Examples}
 %% ======================== Sections =============================
 \input{00SECTIONS/abbreviations.tex}
 \input{00SECTIONS/introduction.tex}
+\input{00SECTIONS/examples.tex}
 \input{00SECTIONS/questions.tex}
+\input{00SECTIONS/comments.tex}
 
 
-%% ======================== Examples =============================
-%% ======================== Examples =============================
-\newpage
-\section{Examples}
-Series of useful \LaTeX\ markup. Need to break out to 
-separate examples.tex file.
-
-\subsection{Escaping $<$ and $>$ Symbols}
-To get \$$<$\$ or \$$>$\$ just wrap the symbols in \$ for math mode.
-
-\subsection{Enumerate}
-\begin{enumerate}
-  \item{DNR} - Alaska State Department of Natural Resources
-    \begin{itemize*}
-      \item{HI} - Historical Index, not maintained since 1982
-      \item{LE} - Land Estate, maintained by SGU
-      \item{ME} - Mineral Estate, maintaind by SGU
-    \end{itemize*}
-
-  \item{Alaska State Surveys}
-    \begin{itemize*}
-      \item{ASBLT} - As-Built Survey
-      \item{ASCS} - Cadastral Survey
-    \end{itemize*}
-\end{enumerate}
 
 
-%% ======================= Comments =======================
-%% ======================= Comments =======================
-\subsection{Comments}
-\begin{center}
-\framebox{
-\begin{minipage}[t]{0.9\textwidth}
-\cmd{COMMENTS} Comment --- \emph{Sean Weems, Spring 2003}\\
-We should get the \cmd{COMMENTS} column searchable via the 
-landrecords application before we do much anything else -- shouldn't
-be too hard.
-\end{minipage}
-}
-\end{center}
-
-\begin{center}
-\framebox{
-\begin{minipage}[t]{0.9\textwidth}
-\emph{Errata: Plats spanning multiple sections}\\
-A few anomalies can be observed in the \cmd{AKPLATS}
-table. Specifically plats exist that span multiple sections. 
-Since the table only has a single column, \cmd{SCODE}, 
-that accepts a single section code, SGU (Status
-Graphics Unit) has handled this problem by entering multiple 
-rows in the table, each with a different section that point to
-the same plat or file. Multiple section plats are indicated by  setting 
-the \cmd{TCODE} column to the value \cmd{37}, and making an 
-appropriate notation like \emph{Section 24-25-26-27} in the 
-\cmd{REMARKS} column.\\
-\FIXME{Perhaps the \cmd{SCODE} column should accept an array of sections?}
-
-\end{minipage}
-}
-\end{center}
-
-
-%% ====================== Footnotes ======================
-%% ====================== Footnotes ======================
-\clearpage
-\newpage
-\subsection{Footnotes}
-See my
-footnote\footnote{\href{http://www.google.com/search?q=latex+footnotes}{Search}
-google for footnotes.}
-generated with:
-
-\begin{verbatim}
-  \footnote{\href{http://www.google.com/search?q=latex+footnotes}
-  {Search google for footnotes.}}
-\end{verbatim}
-
-\noindent GoogleGuide --- Linking to Search
-Results.\footnote{GoogleGuide --- \href{http://www.googleguide.com/linking.html}{Linking to Search Results.}}
 
 
 %% ====================== Hyperlinks ======================
