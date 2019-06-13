@@ -50,16 +50,10 @@ cygwin.txt
   Build notes for LaTeX using cygwin.
 
 docs/
-  Documentation
-
-examples.tex
-  Fine LaTeX Examples template.
-  by Raymond E. Marcil June 26, 2006.
-  Copied from malachite's:
-    ~/svn-ORIG-20151006/docs/latex/latex-examples-OLD/trunk/src/tex/latex-examples.tex
+  VirtualBox documentation
 
 links.txt
-  LaTeX related links
+  VirtualBox related links
 
 make.bat
   Build PDF from LaTeX source
@@ -67,11 +61,11 @@ make.bat
 Makefile
   Standard GNU makefile to build LaTeX document.
 
-template.pdf
-  LaTeX Template with Examples compiled to portable document format file.
+VirtualBox.pdf
+  VirtualBox documentation compiled to portable document format file.
 
-template.tex
-  LaTeX Template with Examples
+VirtualBox.tex
+  VirtualBox LaTeX documentation
 
 TODO
-  Items for template
+  Items for VirtualBox
