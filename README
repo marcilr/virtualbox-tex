@@ -37,6 +37,9 @@ mintaka.sdsu.edu/
 
 Filelist
 ========
+00SECTIONS/
+  LaTeX document sections
+
 build.xml
   Ant build.xml to compile LaTeX file crafted by Jason Kattell at
   DNR LRIS BPU.  He used the ant apply task to make it a bit more
